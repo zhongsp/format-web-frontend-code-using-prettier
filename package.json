@@ -1,0 +1,26 @@
+{
+  "name": "format-web-frontend-code-using-prettier",
+  "version": "1.0.0",
+  "description": "[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongsp/format-web-frontend-code-using-prettier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongsp/format-web-frontend-code-using-prettier/issues"
+  },
+  "homepage": "https://github.com/zhongsp/format-web-frontend-code-using-prettier#readme",
+  "devDependencies": {
+    "prettier": "1.15.2"
+  }
+}

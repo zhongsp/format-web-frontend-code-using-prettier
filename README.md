@@ -24,12 +24,26 @@ Download `Visual Studio Code` and install this extension.
 - Search `Prettier - Code formatter` with publisher name `Esben Petersen`
 - Click `Install`
 
+## Install as npm package
+
+```sh
+npm install --save-dev --save-exact prettier
+```
+
 ## Format code
+
+### Visual Studio Code
 
 - Right click code area and select `Format Document`, or
 - Use shortcut `Ctrl + Alt + F` on Windows, or
-- Enable `format on save`, or
-- etc.
+- Enable `format on save`
+
+### CLI
+
+```sh
+# user manual: https://prettier.io/docs/en/cli.html
+npx prettier ./test/format-me.ts --write
+```
 
 ## Format settings
 
